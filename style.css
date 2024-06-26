@@ -1,0 +1,140 @@
+body{
+    color: rgb(245, 8, 99);
+    font-size:25px;
+}
+.header{
+    background-image: url(https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/fujiyoshida_optimized.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.content{
+    background-color: pink;
+    width: 100%;
+    height: 2800px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    font-size: 30px;
+    color: blue;
+}
+.header-title{
+    height: 600px;
+    text-align: center;
+    align-content: center;
+}
+.header-down-title {
+    position: absolute; 
+    top: 120%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    height: 800px;
+    text-align: center;
+    padding: 20px; 
+    margin-top: -60px;
+}
+.header-down-title1 {
+    position: absolute; 
+    top: 125%;
+    left: 20%; 
+    transform: translate(-50%, -50%);
+    height: 800px;
+    text-align: center;
+    padding: 20px; 
+    margin-top: -60px;
+}
+.header-down-title2 {
+    position: absolute; 
+    top: 165%;
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    height: 800px;
+    text-align: center;
+    padding: 20px; 
+    margin-top: -60px;
+}
+.header-down-titlee {
+    position: absolute; 
+    top: 155%;
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    height: 800px;
+    text-align: center;
+    padding: 20px; 
+    margin-top: -60px;
+}
+.header-menu-center{
+    position: absolute; 
+    top: 125%;
+    right: 10%; 
+    transform: translate(-50%, -50%);
+    height: 800px;
+    text-align: center;
+    padding: 20px; 
+    margin-top: -60px;
+    color: blue;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered-text span {
+    margin: 0 10px;
+    font-size: 50px;
+}
+.text-below-center{
+    margin: 0 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block1 {
+    position: absolute;
+    text-align: center;
+    left: 1200px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+.block2 {
+    position: absolute;
+    left: 1500px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+.block3 {
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+.block4 {
+    position: absolute;
+    top: 400px;
+    left: 1500px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.493);
+}
